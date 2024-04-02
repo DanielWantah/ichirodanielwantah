@@ -1,0 +1,100 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 1em 0;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Navigation bar styles */
+  nav {
+    background-color: #eee;
+    padding: 1em 0;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin: 0 1em;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 2em 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #home .home-content {
+    text-align: justify;
+  }
+  
+  #gallery .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  #artikel .artikel {
+    padding: 1em;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  #contact form label {
+    margin-bottom: 0.5em;
+  }
+  
+  #contact form input, #contact form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+  }
+  
+  #contact form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.7em 1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #eee;
+  }
